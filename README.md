@@ -8,6 +8,11 @@
 </p>
 
 ## INSTALLATION
+LOGIN TO http://localhost:9001/
+ Host: mysql_db
+ Username: root
+ Password: root
+
 COMPOSER INSTALL
 • docker exec laravel-crud bash -c "composer install"
 
