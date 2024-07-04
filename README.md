@@ -9,22 +9,22 @@
 
 ## INSTALLATION
 LOGIN TO http://localhost:9001/
- Host: mysql_db
- Username: root
- Password: root
+- Host: mysql_db
+- Username: root
+- Password: root
 
 COMPOSER INSTALL
-• docker exec laravel-crud bash -c "composer install"
+- docker exec laravel-crud bash -c "composer install"
 
 DOCKER BUILD / UP / STOP / DOWN
-• docker-compose build
-• docker-compose up -d
-• docker-compose stop
-• docker-compose down
+- docker-compose build
+- docker-compose up -d
+- docker-compose stop
+- docker-compose down
 
 DB MIGARATION / SEEDER
-• docker exec laravel-crud bash -c "php artisan migrate"
-• docker exec laravel-crud bash -c "php artisan db:seed"
+ - docker exec laravel-crud bash -c "php artisan migrate"
+ - docker exec laravel-crud bash -c "php artisan db:seed"
 
 ## About Laravel
 
