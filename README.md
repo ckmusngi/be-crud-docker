@@ -7,6 +7,20 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## INSTALLATION
+COMPOSER INSTALL
+• docker exec laravel-crud bash -c "composer install"
+
+DOCKER BUILD / UP / STOP / DOWN
+• docker-compose build
+• docker-compose up -d
+• docker-compose stop
+• docker-compose down
+
+DB MIGARATION / SEEDER
+• docker exec laravel-crud bash -c "php artisan migrate"
+• docker exec laravel-crud bash -c "php artisan db:seed"
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
